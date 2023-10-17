@@ -1,0 +1,185 @@
+Q2user input 
+write a c program to enter a age and check a user is valid for vote or not ? 
+age is greater than 18 
+
+ans.int main()
+{
+    int age;
+    printf("enter the value of age");
+    scanf("%d",&age);
+    if(age>18)
+{
+    printf("vaild for vote");
+    
+}
+else
+{
+    printf("not valid for vote ");
+}
+    
+
+    return 0;
+}
+
+
+
+
+
+Q3.user input 
+write a c program to enter  a number and check a number is divisble 5 or not ? 
+
+ans.int main()
+{
+    int num;
+    printf("enter the number which is divible by or not");
+    scanf("%d",&num);
+    if(num%5==0)
+{
+    printf("number is divisble");
+}
+else
+{
+    printf("not divisble");
+}
+    
+
+
+Q4.user input 
+wirte a c program to enter a number and check a number is divisible by 7 or not ? 
+
+ans.int main()
+{
+    int num;
+    printf("enter the number which is divible by or not");
+    scanf("%d",&num);
+    if(num%7==0)
+{
+    printf("number is divisble");
+}
+else
+{
+    printf("not divisble");
+}
+    
+
+Q5.user input 
+write a c program to enter a number and check a number is divisble by 3 and 7 both?
+
+ans.int main()
+{
+    int num;
+    printf("enter the number is divisble by 3 and 7\n");
+    scanf("%d",&num);
+    if(num%3==0 && num%7==0)
+    {
+        
+        printf("divisible by both");
+    }
+    else{
+        printf("not divisble by both");
+    }
+
+
+Q6.user input 
+write a c program to enter a number and check a number is divisble by 5 and 11 both?
+
+ans.int main()
+{
+    int num;
+    printf("enter the number is divisble by 5 and 11\n");
+    scanf("%d",&num);
+    if(num%5==0 && num%11==0)
+    {
+        
+        printf("divisible by both");
+    }
+    else{
+        printf("not divisble by both");
+    }
+
+    return 0;
+}
+
+Q6.user input 
+write a c program to enter a number and check a number is divisble by 2,3,4,6 all divide? 
+
+ans.int main()
+{
+    int num;
+    printf("enter the number is divisble by 2,3,4,6\n");
+    scanf("%d",&num);
+    if(num%2==0 && num%3==0 && num%4==0 && num%6==0)
+    {
+        
+        printf("divisible by all");
+    }
+    else{
+        printf("not divisble by all");
+    }
+
+    return 0;
+}
+
+
+Q7.write a c program to enter a number and check a number is divisble by 5 and 11 any one ?
+
+ans.int main()
+{
+    int num;
+    printf("enter the number is divisble by 5 or 11 any one\n");
+    scanf("%d",&num);
+    if(num%5==0 || num%11==0)
+    {
+        
+        printf("divisible ");
+    }
+    else{
+        printf("not divisble");
+    }
+
+    return 0;
+
+Q8.user input 
+write a c program to enter a number and check a number is divisble by 2,3,4,6 any one? 
+
+ans.int main()
+{
+    int num;
+    printf("enter the number is divisble by 2,3,4,6 any one\n");
+    scanf("%d",&num);
+    if(num%2==0 || num%3==0 || num%4==0 || num%6==0)
+    {
+        
+        printf("divisible ");
+    }
+    else{
+        printf("not divisble");
+    }
+
+    return 0;
+}
+
+
+Q9.user input :scanf 
+write a c program to check a number (user input ) a number is greater than 45 or not ? 
+
+ans.int main()
+{
+    int num;
+    printf("enter the number which is greater than 45\n");
+    scanf("%d",&num);
+    if(num>45)
+    {
+        
+        printf("greater ");
+    }
+    else{
+        printf("not greater");
+    }
+
+    return 0;
+}
+
+
+
+
